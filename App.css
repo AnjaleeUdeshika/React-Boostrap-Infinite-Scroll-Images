@@ -1,0 +1,128 @@
+
+h2{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.Nav-Bar-Responsive-Behaviors{
+  height: fit-content;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-weight: 200px;
+  font-size: 20px;
+
+}
+
+.Navbar-Canvas{
+  height: 90px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-weight: 200px;
+  font-size: 20px;
+  
+}
+
+/*--------------Grid System------------------*/
+
+.Main-Container{
+  width: 80%;
+  margin-top: 20px;
+}
+
+.Row-1{
+  height: 250px;
+}
+.Row-2{
+  height: 125px;
+}
+.Row-3{
+  height: 625px;
+}
+.Row-1-Col-1 {
+  height: 100%;
+  background-color: brown;
+}
+
+.Row-1-Col-2 {
+  height: 100%;
+  background-color: rgb(215, 218, 51);
+  
+} 
+
+.Row-2-Col-1{
+  height: 100%;
+  background-color: chartreuse;
+  
+}
+.Row-2-Col-2{
+  height: 200%;
+  background-color: rgb(55, 200, 219);
+  
+
+}
+.Row-3-Col-1{
+  height: 100%;
+  background-color: crimson;
+ 
+}
+.Row-3-Col-2{
+  height: 80%;
+  align-self: end;
+  background-color: blueviolet;
+  
+}
+.Row-3-Col-3{
+  height: 80%;
+  align-self: end;
+  background-color: rgb(56, 172, 72);
+}
+
+
+@media (max-width: 767px) {
+  .Main-Container {
+    width: 80%;
+    margin-top: 20px;
+  }  
+  .Row-1{
+    height: 250px;
+    margin-bottom: 200px;
+  }
+  .Row-2{
+    height: 125px;
+    margin-bottom: 100px;
+  }
+  .Row-3{
+    height: 625px;
+  }
+  .Row-1-Col-1 {
+    height: 100%;
+    background-size: cover;
+  }  
+  .Row-1-Col-2 {
+    height: 100%;
+    background-size: cover;
+  }  
+  .Row-2-Col-1{
+    height: 100%;
+  }
+  .Row-2-Col-2{
+    height: 100%;
+  }
+  .Row-3-Col-1{
+    height: 120%;
+    align-self: end;
+  }
+  .Row-3-Col-2{
+    height: 80%;
+    align-self: end;
+  }
+  .Row-3-Col-3{
+    height: 80%;
+    align-self: end;
+  }
+}
