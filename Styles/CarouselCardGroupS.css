@@ -1,0 +1,75 @@
+.Card-Header {
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .Main-Card-Container {
+    min-width: 100%;
+    min-height: fit-content;
+    margin-top: 30px;
+  }
+
+  
+  .carousel-container {
+    width: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .react-multi-carousel-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  
+  @media all and (min-width: 464px) and (max-width: 767px) {
+    .Main-Card-Container {
+      max-width: fit-content;
+      background-color: aqua;
+    }
+    .carousel-container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .react-multi-carousel-item--active {
+      min-width: fit-content !important;
+      padding-inline-end: 30px !important;
+      padding-inline-start: 30px !important;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+  
+
+  
+  
+  /* @media all and (min-width: 992px) and (max-width: 1999px) {
+    .Main-Card-Container {
+      max-width: 200%;
+      background-color: brown;
+    }
+    .carousel-container {
+        width: fit-content;  
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .react-multi-carousel-item--active {
+      min-width: fit-content !important;
+      padding-inline-end: 30px !important;
+      padding-inline-start: 30px !important;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  } */
