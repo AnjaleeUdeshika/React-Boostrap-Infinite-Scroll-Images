@@ -14,7 +14,7 @@ const responsive = {
   },
   laptop: {
     breakpoint: { max: 1999, min: 992 },
-    items: 2,
+    items: 4,
   },
   tablet1: {
     breakpoint: { max: 991, min: 768 },
@@ -53,91 +53,91 @@ function CarouselCardGroup(props) {
                 infinite={true}
                 autoPlaySpeed={4000}
                 removeArrowOnDeviceType={["mobile"]}
-                centerMode={props.deviceType === "tablet2" ? false : true}
+                // centerMode={props.deviceType === "tablet2" ? false : true}
                 containerClass="carousel-container"
             >
 
                 {/*------------Row 1 Col 1-------------- */}
-                <Col className="Col1" xs={12} md={3}>
+                <div className="Col1" xs={12} md={3}>
                     <ACard 
                     title={"Introduction to Python Programming"}
                     text={"Introduction to programming with the Python language." }
                     image={require("../Asset/python.jpg")}
                     style={{ width: '18rem' }}
                     />
-                </Col>
+                </div>
 
             {/*------------Row 1 Col 2-------------- */}
-                <Col className="Col2" xs={12} md={3}>
+                <div className="Col2" xs={12} md={3}>
                     <ACard
                     title={"Practical Machine Lerning with Python"}
                     text={ "Learn basics of machine learning concepts with Python."}
                     image={require("../Asset/ml-with-python.png")}
                     style={{ width: '18rem' }}
                     />
-                </Col>
+                </div>
 
 
                 {/*------------Row 1 Col 3-------------- */}
-                <Col className="Col3" xs={12} md={3}>
+                <div className="Col3" xs={12} md={3}>
                     <ACard className="Card3"
                     title={"Full Stack Web Application Development"}
                     text={"Learn concepts to build modern full stack web applications." }
                     image={require("../Asset/fullstack.png")}
                     style={{ width: '18rem' }}
                     />
-                </Col>
+                </div>
 
 
                 {/*------------Row 1 Col 4-------------- */}
-                <Col className="Col4" xs={12} md={3}>
+                <div className="Col4" xs={12} md={3}>
                     <ACard
                     title={"Modern Cloud Based Application Deveopment"}
                     text={"Start building of modern applications in the cloud."}
                     image={require("../Asset/cloud.png")}  
                     />
-                </Col> 
+                </div> 
 
                   {/*------------Row 1 Col 1-------------- */}
-                  <Col className="Col1" xs={12} md={3}>
+                  <div className="Col1" xs={12} md={3}>
                     <ACard 
                     title={"Introduction to Python Programming"}
                     text={"Introduction to programming with the Python language." }
                     image={require("../Asset/python.jpg")}
                     style={{ width: '18rem' }}
                     />
-                </Col>
+                </div>
 
             {/*------------Row 1 Col 2-------------- */}
-                <Col className="Col2" xs={12} md={3}>
+                <div className="Col2" xs={12} md={3}>
                     <ACard
                     title={"Practical Machine Lerning with Python"}
                     text={ "Learn basics of machine learning concepts with Python."}
                     image={require("../Asset/ml-with-python.png")}
                     style={{ width: '18rem' }}
                     />
-                </Col>
+                </div>
 
 
                 {/*------------Row 1 Col 3-------------- */}
-                <Col className="Col3" xs={12} md={3}>
+                <div className="Col3" xs={12} md={3}>
                     <ACard className="Card3"
                     title={"Full Stack Web Application Development"}
                     text={"Learn concepts to build modern full stack web applications." }
                     image={require("../Asset/fullstack.png")}
                     style={{ width: '18rem' }}
                     />
-                </Col>
+                </div>
 
 
                 {/*------------Row 1 Col 4-------------- */}
-                <Col className="Col4" xs={12} md={3}>
+                <div className="Col4" xs={12} md={3}>
                     <ACard
                     title={"Modern Cloud Based Application Deveopment"}
                     text={"Start building of modern applications in the cloud."}
                     image={require("../Asset/cloud.png")}  
                     />
-                </Col> 
+                </div> 
                 
             </Carousel>
         </Row>

@@ -1,0 +1,47 @@
+.rbt-aux{
+  margin-top: 300px;
+}
+
+.typehead {
+  padding-top: 20%;
+  width: 800px;
+  margin: auto;
+}
+
+
+
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/004/815/642/original/software-development-programming-language-coding-3d-isometric-pc-computer-with-digital-application-isolated-on-white-background-design-vector.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 20px;
+}
+
+@media all and (max-width: 767px) {
+  .typehead {
+    padding-top: 10%;
+    width: 100%;
+    margin: auto;
+  }
+
+  .rbt-aux{
+    margin-top: 30px;
+  }
+  
+}
+
+@media all and (min-width: 767px) and (max-width: 1024px) {
+  .typehead {
+    padding-top: 60%;
+    width: 100%;
+    margin: auto; 
+  }
+
+  .rbt-aux{
+    margin-top: 530px;
+  }
+}
+

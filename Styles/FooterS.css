@@ -1,0 +1,52 @@
+.Footer-Main{
+    max-width: 100%;
+    margin-top: 50px;
+    padding-top: 20px;
+    font-family: Poppins;
+    background: linear-gradient(to left, rgba(7, 7, 43, 1), rgba(7, 7, 43, 1), rgb(43, 93, 100));
+   
+}
+
+a:link { text-decoration: none; }
+
+p{
+    font-style: bold;
+    font-size: 17px;
+    font-weight: 800px;
+    color:rgba(255, 255, 255, 0.5) ;
+    /* font-family: Poppins; */
+}
+
+.text.fw-bold.mb-4{
+    font-size: 20px;
+    color:white ;
+}
+
+i{
+    width: 25px;
+    height: 25px;
+}
+
+.text-center.p-4{
+    font-size: 20px;
+
+}
+
+.bottom-section{
+    background: linear-gradient(to left, rgba(7, 7, 43, 1), rgba(7, 7, 43, 1), rgb(43, 93, 100));
+    height: 100px;
+    font-family: Poppins;
+}
+
+.row{
+    max-width: 95%;
+}
+
+.col-md-1.col-lg-4.col-xl-3.mx-3.mb-4{
+    margin-left: 150px;
+}
+
+.col-md-2.col-lg-4.col-xl-3.mx-3.mb-4{
+    margin-left: 150px;
+}
+
